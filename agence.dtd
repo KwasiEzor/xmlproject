@@ -1,0 +1,67 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT agence (offres)+>
+<!ATTLIST agence
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT offres (biens)>
+<!ATTLIST offres
+  xmlns CDATA #FIXED ''
+  type NMTOKEN #REQUIRED>
+
+<!ELEMENT biens (bien)+>
+<!ATTLIST biens
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT bien (commune,surface,nbchambres,salledebain,chauffage,
+                vitrage,options,(nbfacades,nbetages)?,prix)>
+<!ATTLIST bien
+  xmlns CDATA #FIXED ''
+  type NMTOKEN #REQUIRED>
+
+<!ELEMENT commune (#PCDATA)>
+<!ATTLIST commune
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT surface (#PCDATA)>
+<!ATTLIST surface
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nbchambres (#PCDATA)>
+<!ATTLIST nbchambres
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT salledebain (#PCDATA)>
+<!ATTLIST salledebain
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT chauffage EMPTY>
+<!ATTLIST chauffage
+  xmlns CDATA #FIXED ''
+  gaz NMTOKEN #REQUIRED
+  mazout NMTOKEN #REQUIRED>
+
+<!ELEMENT vitrage EMPTY>
+<!ATTLIST vitrage
+  xmlns CDATA #FIXED ''
+  double NMTOKEN #REQUIRED
+  simple NMTOKEN #REQUIRED
+  triple NMTOKEN #REQUIRED>
+
+<!ELEMENT options EMPTY>
+<!ATTLIST options
+  xmlns CDATA #FIXED ''
+  garage NMTOKEN #REQUIRED
+  jardin NMTOKEN #REQUIRED>
+
+<!ELEMENT nbfacades (#PCDATA)>
+<!ATTLIST nbfacades
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nbetages (#PCDATA)>
+<!ATTLIST nbetages
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT prix (#PCDATA)>
+<!ATTLIST prix
+  xmlns CDATA #FIXED ''>

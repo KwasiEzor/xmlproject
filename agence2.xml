@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="agence2.xsl"?>
+<!DOCTYPE agence SYSTEM "agence.dtd">
+<agence>
+<!--Biens en Location-->
+    <offres type="location">
+        <biens>
+            <bien type="appartement">
+                <commune>Anderlecht</commune>
+                <surface>85 m2</surface>
+                <nbchambres>1</nbchambres>
+                <salledebain>1</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="oui" double="non" triple="non" />
+                <options jardin="non" garage="non" />
+                <prix>950 </prix>
+            </bien>
+              <bien type="appartement">
+                <commune>Anderlecht</commune>
+                <surface>150m2</surface>
+                <nbchambres>3</nbchambres>
+                <salledebain>2</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="oui" double="non" triple="non" />
+                <options jardin="non" garage="non" />
+                <prix>1000 </prix>
+            </bien>
+            <bien type="appartement">
+                <commune>Ixelles</commune>
+                <surface>100 m2</surface>
+                <nbchambres>2</nbchambres>
+                <salledebain>1</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="non" double="oui" triple="non" />
+                <options jardin="non" garage="non" />
+                <prix>850 </prix>
+            </bien>
+               <bien type="appartement">
+                <commune>Ixelles</commune>
+                <surface>130 m2</surface>
+                <nbchambres>3</nbchambres>
+                <salledebain>2</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="non" double="oui" triple="non" />
+                <options jardin="non" garage="non" />
+                <prix>1050 </prix>
+            </bien>
+            <bien type="appartement">
+                <commune>Schaerbeek</commune>
+                <surface>90 m2</surface>
+                <nbchambres>2</nbchambres>
+                <salledebain>1</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="non" double="oui" triple="non" />
+                <options jardin="non" garage="non" />
+                <prix>990 </prix>
+            </bien>
+               <bien type="appartement">
+                <commune>Schaerbeek</commune>
+                <surface>120 m2</surface>
+                <nbchambres>2</nbchambres>
+                <salledebain>1</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="non" double="oui" triple="non" />
+                <options jardin="non" garage="non" />
+                <prix>998 </prix>
+            </bien>
+            <bien type="appartement">
+                <commune>Uccle</commune>
+                <surface>110m2</surface>
+                <nbchambres>3</nbchambres>
+                <salledebain>1</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="non" double="non" triple="oui" />
+                <options jardin="oui" garage="non" />
+                <prix>1450 </prix>
+            </bien>
+            <bien type="maison">
+                <commune>Anderlecht</commune>
+                <surface>120 m2</surface>
+                <nbchambres>3</nbchambres>
+                <salledebain>2</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="oui" double="non" triple="non" />
+                <options  jardin="oui" garage="non" />
+                <nbfacades>2</nbfacades>
+                <nbetages>1</nbetages>
+                <prix>1250 </prix>
+            </bien>
+             <bien type="maison">
+                <commune>Ixelles</commune>
+                <surface>130 m2</surface>
+                <nbchambres>3</nbchambres>
+                <salledebain>2</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="oui" double="non" triple="non" />
+                <options jardin="oui" garage="non" />
+                <nbfacades>2</nbfacades>
+                <nbetages>2</nbetages>
+                <prix>999 </prix>
+            </bien>
+            <bien type="maison">
+                <commune>Schaerbeek</commune>
+                <surface>320 m2</surface>
+                <nbchambres>4</nbchambres>
+                <salledebain>2</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="non" double="non" triple="oui" />
+                <options jardin="oui" garage="oui" />
+                <nbfacades>3</nbfacades>
+                <nbetages>4</nbetages>
+                <prix>2650</prix>
+            </bien>
+             <bien type="maison">
+                <commune>Anderlecht</commune>
+                <surface>175 m2</surface>
+                <nbchambres>3</nbchambres>
+                <salledebain>2</salledebain>
+                <chauffage gaz="non" mazout="oui" />
+                <vitrage simple="oui" double="non" triple="non" />
+                <options jardin="oui" garage="non" />
+                <nbfacades>2</nbfacades>
+                <nbetages>1</nbetages>
+                <prix>980</prix>
+            </bien>
+        </biens>
+    </offres>
+    <!--Biens en vente-->
+    <offres type="vente">
+         <biens>
+            <bien type="appartement">
+                <commune>Anderlecht</commune>
+                <surface>85 m2</surface>
+                <nbchambres>1</nbchambres>
+                <salledebain>1</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="oui" double="non" triple="non" />
+                <options jardin="non" garage="non" />
+                <prix>200000</prix>
+            </bien>
+            <bien type="appartement">
+                <commune>Ixelles</commune>
+                <surface>110 m2</surface>
+                <nbchambres>2</nbchambres>
+                <salledebain>1</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="non" double="oui" triple="non" />
+                <options jardin="oui" garage="non" />
+                <prix>2800000 </prix>
+            </bien>
+            <bien type="appartement">
+                <commune>Schaerbeek</commune>
+                <surface>90 m2</surface>
+                <nbchambres>2</nbchambres>
+                <salledebain>1</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="non" double="oui" triple="non" />
+                <options jardin="non" garage="non" />
+                <prix>210990 </prix>
+            </bien>
+            <bien type="appartement">
+                <commune>Uccle</commune>
+                <surface>110m2</surface>
+                <nbchambres>3</nbchambres>
+                <salledebain>1</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="non" double="non" triple="oui" />
+                <options jardin="non" garage="oui" />
+                <prix>299450 </prix>
+            </bien>
+            <bien type="maison">
+                <commune>Anderlecht</commune>
+                <surface>220 m2</surface>
+                <nbchambres>3</nbchambres>
+                <salledebain>1</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="oui" double="non" triple="non" />
+                <options  jardin="oui" garage="non" />
+                <nbfacades>2</nbfacades>
+                <nbetages>1</nbetages>
+                <prix>240000</prix>
+            </bien>
+             <bien type="maison">
+                <commune>Ixelles</commune>
+                <surface>130 m2</surface>
+                <nbchambres>3</nbchambres>
+                <salledebain>1</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="oui" double="non" triple="non" />
+                <options jardin="oui" garage="non" />
+                <nbfacades>2</nbfacades>
+                <nbetages>2</nbetages>
+                <prix>250000 </prix>
+            </bien>
+            <bien type="maison">
+                <commune>Schaerbeek</commune>
+                <surface>320 m2</surface>
+                <nbchambres>5</nbchambres>
+                <salledebain>2</salledebain>
+                <chauffage gaz="oui" mazout="non" />
+                <vitrage simple="non" double="non" triple="oui" />
+                <options jardin="oui" garage="oui" />
+                <nbfacades>3</nbfacades>
+                <nbetages>4</nbetages>
+                <prix>300000 </prix>
+            </bien>
+             <bien type="maison">
+                <commune>Uccle</commune>
+                <surface>200 m2</surface>
+                <nbchambres>3</nbchambres>
+                <salledebain>2</salledebain>
+                <chauffage gaz="non" mazout="oui" />
+                <vitrage simple="oui" double="non" triple="non" />
+                <options jardin="oui" garage="non" />
+                <nbfacades>2</nbfacades>
+                <nbetages>1</nbetages>
+                <prix>270000 </prix>
+            </bien>
+        </biens>
+    </offres>
+</agence>
